@@ -1,0 +1,243 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    height: 100%;
+    width: 100%;
+}
+
+/* Header Section */
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.header-container h1 {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 1rem;
+}
+.header-container p {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.header-container a {
+    text-decoration: none;
+    color: rgb(55, 122, 223);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container button {
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 0.5rem;
+    background-color: rgb(55, 122, 223);
+    border: solid 0.5px black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Card section */
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: lightgray solid 1px;
+    border-radius: 4px;
+    background-color: rgb(247, 247, 247);
+}
+
+.card:nth-child(2) {
+    margin: 0 1.5rem 0 1.5rem;
+}
+.card-header h1 {
+    font-size: 15px;
+    border-bottom: lightgray solid 1px;
+    padding: 1rem;
+}
+.card-content {
+    flex-grow: 1;
+}
+
+.card-content p {
+    line-height: 1.6;
+}
+
+#price {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    color: rgb(55, 122, 223);
+    border-bottom: rgb(238, 237, 237) solid 0.5px;
+    line-height: 1;
+}
+
+#price p {
+    font-size: 13px;
+    line-height: normal;
+}
+
+#features {
+    padding-left: 1rem;
+}
+
+#price-amount span {
+    padding-left: 1rem;
+    padding-right: 0.2rem;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+.card #price > span {
+    font-size: 45px;
+}
+.card p {
+    padding: 1rem 0 1rem 0;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+/* Bottom button container */
+
+.button-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-top: lightgray solid 1px;
+    padding: 0.8rem;
+}
+
+.button-links-container div:first-child {
+    margin: 1rem;
+}
+
+#contact-button {
+    font-weight: lighter;
+    padding: 0.5rem;
+    color: rgb(3, 111, 3);
+    background-color: rgb(252, 252, 252);
+    margin-right: 0.5rem;
+    border-radius: 3px;
+    border: solid 1px rgb(3, 111, 3);
+    cursor: pointer;
+}
+
+#upgrade-button {
+    font-weight: lighter;
+    padding: 0.5rem;
+    color: rgb(252, 252, 252);
+    background-color: rgb(3, 111, 3);
+    margin-right: 0.5rem;
+    border-radius: 3px;
+    border: solid 1px rgb(3, 111, 3);
+    cursor: pointer;
+}
+
+/* User plan section */
+
+.user-plan-container {
+    display: flex;
+    flex-direction: column;
+    border: lightgray solid 1px;
+    border-radius: 4px;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    margin: 1.5rem 0 1.5rem 0;
+}
+.user-plan-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.user-plan-header h1 {
+    font-size: 15px;
+    padding: 1rem;
+    letter-spacing: 1px;
+}
+
+.upgrade-button-container {
+    padding: 0.5rem;
+}
+
+.upgrade-button-container button {
+    font-weight: lighter;
+    padding: 0.5rem;
+    color: rgb(55, 122, 223);
+    background-color: rgb(255, 255, 255);
+    margin-right: 0.5rem;
+    border-radius: 3px;
+    border: solid 1px rgb(55, 122, 223);
+    cursor: pointer;
+}
+
+.usage-container,
+.billing-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: white;
+    border-top: lightgray solid 1px;
+}
+
+.usage-container h1,
+.billing-container h1 {
+    font-size: 12px;
+    text-align: left;
+    padding: 0.5rem;
+}
+
+.usage-container p,
+.billing-container p {
+    line-height: 1.6;
+    font-size: 10px;
+    padding: 0.5rem;
+}
+
+.usage-container span,
+.billing-container span {
+    font-size: 9px;
+}
+
+.usage-container div,
+.billing-container div {
+    width: 100%;
+    border-right: lightgray solid 1px;
+}
+
+.usage-container div:last-child,
+.billing-container div:last-child {
+    border-right: none;
+}
+
+.fa-question-circle {
+    color: rgb(55, 122, 223);
+}
+
+.fa-file {
+    padding-right: 0.5rem;
+}
+
+.fa-database {
+    padding-right: 0.5rem;
+}

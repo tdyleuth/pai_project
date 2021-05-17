@@ -1,0 +1,100 @@
+.sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    width: 25%;
+    padding: 1.5rem 0 1.5rem 0;
+    border-right: lightgray solid 1px;
+}
+.profile-section {
+    display: flex;
+    flex-direction: column;
+}
+.profile-section h1 {
+    text-align: center;
+    font-size: 16px;
+    padding: 1rem 0 1rem 0;
+    color: rgb(29, 29, 29);
+}
+img {
+    width: 100px;
+    text-align: center;
+}
+.profile-pic {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80px;
+}
+
+#email {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-links > a {
+    padding: 0.8rem;
+    text-decoration: none;
+    color: rgb(106, 102, 102);
+    font-size: 16px;
+}
+
+.menu-links > a:hover {
+    color: black;
+    background: rgb(240, 239, 239);
+    font-weight: bold;
+}
+
+.storage {
+    border-top: lightgray solid 1px;
+    border-bottom: lightgray solid 1px;
+    color: rgb(106, 102, 102);
+}
+.storage > p {
+    padding: 0.8rem 0 0 0.5rem;
+}
+
+#storage-loader {
+    padding: 0.7rem;
+    border: solid 1px rgb(198, 191, 191);
+    border-radius: 10px;
+    margin: 0.5rem 0.8rem 0 0.8rem;
+    background-color: rgb(221, 219, 219);
+}
+#storage-percentage {
+    color: rgb(198, 191, 191);
+    font-size: 12px;
+    padding-bottom: 0.8rem;
+}
+
+.storage-upgrade {
+    display: flex;
+    justify-content: center;
+    padding: 0.6rem;
+    border: lightgray solid 1px;
+    border-radius: 4px;
+    margin: 0.8rem;
+}
+
+.storage-upgrade > p {
+    margin-left: 0.8rem;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.storage-upgrade > p > a {
+    text-decoration: none;
+    color: black;
+}
+span {
+    font-weight: normal;
+    font-size: 11px;
+}
