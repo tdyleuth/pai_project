@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/paiproject/static/css/main.3c23c55b.chunk.css",
+    "main.js": "/paiproject/static/js/main.d7a5d834.chunk.js",
+    "main.js.map": "/paiproject/static/js/main.d7a5d834.chunk.js.map",
+    "runtime-main.js": "/paiproject/static/js/runtime-main.6e3f2151.js",
+    "runtime-main.js.map": "/paiproject/static/js/runtime-main.6e3f2151.js.map",
+    "static/css/2.302a5e37.chunk.css": "/paiproject/static/css/2.302a5e37.chunk.css",
+    "static/js/2.d4805792.chunk.js": "/paiproject/static/js/2.d4805792.chunk.js",
+    "static/js/2.d4805792.chunk.js.map": "/paiproject/static/js/2.d4805792.chunk.js.map",
+    "index.html": "/paiproject/index.html",
+    "static/css/2.302a5e37.chunk.css.map": "/paiproject/static/css/2.302a5e37.chunk.css.map",
+    "static/css/main.3c23c55b.chunk.css.map": "/paiproject/static/css/main.3c23c55b.chunk.css.map",
+    "static/js/2.d4805792.chunk.js.LICENSE.txt": "/paiproject/static/js/2.d4805792.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/paiproject/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/profile-pic.315c2f97.png": "/paiproject/static/media/profile-pic.315c2f97.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e3f2151.js",
+    "static/css/2.302a5e37.chunk.css",
+    "static/js/2.d4805792.chunk.js",
+    "static/css/main.3c23c55b.chunk.css",
+    "static/js/main.d7a5d834.chunk.js"
+  ]
+}
